@@ -11,6 +11,7 @@
 		6E7BFD9D29488DDB0052380C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BFD9C29488DDB0052380C /* ContentView.swift */; };
 		6E7BFD9F29488DDD0052380C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7BFD9E29488DDD0052380C /* Assets.xcassets */; };
 		6E7BFDA229488DDD0052380C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7BFDA129488DDD0052380C /* Preview Assets.xcassets */; };
+		6E7BFDA929489E0A0052380C /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BFDA829489E0A0052380C /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6E7BFD9C29488DDB0052380C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E7BFD9E29488DDD0052380C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E7BFDA129488DDD0052380C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E7BFDA829489E0A0052380C /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6E7BFD9A29488DDB0052380C /* ColorizedApp_SwiftUI_App.swift */,
 				6E7BFD9C29488DDB0052380C /* ContentView.swift */,
+				6E7BFDA829489E0A0052380C /* SliderView.swift */,
 				6E7BFD9E29488DDD0052380C /* Assets.xcassets */,
 				6E7BFDA029488DDD0052380C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7BFDA929489E0A0052380C /* SliderView.swift in Sources */,
 				6E7BFD9D29488DDB0052380C /* ContentView.swift in Sources */,
 				6E7BFD9B29488DDB0052380C /* ColorizedApp_SwiftUI_App.swift in Sources */,
 			);
