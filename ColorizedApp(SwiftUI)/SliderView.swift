@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct SliderView: View {
-    @State private var value = 100.0
-    @State private var color: Color = .red
-    @State private var text = ""
+    @Binding var value: Double
+    @State var text: String = "  -"
+    var color: Color
 
     var body: some View {
         HStack {
@@ -18,12 +18,18 @@ struct SliderView: View {
             Slider(value: $value, in: 0...255, step: 1)
                 .accentColor(color)
             TextField(text, text: $text)
+                .frame(width: 35)
+                .overlay(RoundedRectangle(cornerRadius: 4)
+                .stroke(lineWidth: 1)
+                .foregroundColor(.gray))
         }
     }
 }
 
-struct SliderView_Previews: PreviewProvider {
-    static var previews: some View {
-        SliderView()
-    }
-}
+//struct SliderView_Previews: PreviewProvider {
+//    @Binding var previewSliderValue: Double = 100.0
+//
+//    static var previews: some View {
+//        SliderView(value: $previewSliderValue, color: .cyan)
+//    }
+//}
